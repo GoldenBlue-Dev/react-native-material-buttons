@@ -57,12 +57,12 @@ export default class RaisedTextButton extends PureComponent {
         {...props}
         disableAnimation={disableAnimation}
       >
-        <Animated.Text
+        <Text
           style={[styles.title, titleStyle, titleStyleOverrides]}
           numberOfLines={1}
         >
           {title}
-        </Animated.Text>
+        </Text>
       </RaisedButton>
     );
   }

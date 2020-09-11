@@ -64,12 +64,12 @@ export default class TextButton extends PureComponent {
         {...props}
         disableAnimation={disableAnimation}
       >
-        <Animated.Text
+        <Animated
           style={[styles.title, titleStyle, titleStyleOverrides]}
           numberOfLines={1}
         >
           {title}
-        </Animated.Text>
+        </Animated>
       </Button>
     );
   }
